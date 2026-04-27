@@ -99,7 +99,7 @@ function BlogPostPage() {
 
         <div className="mx-auto max-w-3xl px-6 py-16 md:py-20">
           <div className="space-y-6">
-            {post.body.map((para, i) => (
+            {post.body.map((para: string, i: number) => (
               <p key={i} className="font-serif text-lg leading-[1.75] text-foreground/90 first:text-xl first:font-medium first:text-[var(--ink)] text-pretty">
                 {para}
               </p>

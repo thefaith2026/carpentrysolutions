@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 import { SITE } from "@/lib/seo";
+import logo from "@/assets/logo.png";
 
 export function SiteFooter() {
   return (
@@ -9,11 +10,15 @@ export function SiteFooter() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-sm border border-[var(--brass)]/40 bg-[var(--cream)] text-[var(--forest)]">
-                <span className="font-serif text-xl font-semibold leading-none">CC</span>
-              </div>
+              <img
+                src={logo}
+                alt="Custom Carpentry Solutions LLC"
+                width={44}
+                height={44}
+                className="h-11 w-11 rounded-sm object-contain"
+              />
               <div className="leading-tight">
-                <p className="font-serif text-base font-semibold">Custom Carpentry</p>
+                <p className="font-serif text-base font-bold text-[var(--cream)]">Custom Carpentry</p>
                 <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--brass)]">
                   Solutions LLC
                 </p>

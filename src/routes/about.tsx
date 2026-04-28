@@ -3,7 +3,8 @@ import { ShieldCheck, Award, Hammer, Heart } from "lucide-react";
 import { PageShell, PageHero } from "@/components/PageShell";
 import { CtaBanner } from "@/components/CtaBanner";
 import { buildMeta } from "@/lib/seo";
-import portrait from "@/assets/about-portrait.jpg";
+import workshop from "@/assets/about-workshop.jpg";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -12,7 +13,7 @@ export const Route = createFileRoute("/about")({
       description:
         "Meet the licensed, insured carpentry team behind Custom Carpentry Solutions LLC - serving Nashville, Belle Meade, Gallatin and Lebanon with framing, finish, cabinets and remodels.",
       path: "/about",
-      image: portrait,
+      image: workshop,
     }),
   }),
   component: AboutPage,
@@ -25,21 +26,33 @@ function AboutPage() {
         eyebrow="About Us"
         title="A Nashville carpentry crew that genuinely cares about the details."
         description="We started Custom Carpentry Solutions because we were tired of seeing beautiful Tennessee homes finished with rushed work. Every project we touch gets the standard we'd want in our own house."
-        image={portrait}
+        image={workshop}
       />
 
       <section className="bg-background">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 py-24 md:grid-cols-12 md:gap-16 md:py-32">
           <div className="md:col-span-5">
-            <div className="overflow-hidden rounded-sm border border-border shadow-elegant">
-              <img
-                src={portrait}
-                alt="Owner of Custom Carpentry Solutions on a Nashville job site"
-                width={1080}
-                height={1620}
-                loading="eager"
-                className="aspect-[3/4] w-full object-cover"
-              />
+            <div className="space-y-6">
+              <div className="flex aspect-square items-center justify-center overflow-hidden rounded-sm border border-border bg-black p-10 shadow-elegant">
+                <img
+                  src={logo}
+                  alt="Custom Carpentry Solutions LLC logo"
+                  width={600}
+                  height={600}
+                  loading="eager"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className="overflow-hidden rounded-sm border border-border shadow-warm">
+                <img
+                  src={workshop}
+                  alt="Custom Carpentry Solutions workshop in Nashville"
+                  width={1080}
+                  height={1620}
+                  loading="lazy"
+                  className="aspect-[4/5] w-full object-cover"
+                />
+              </div>
             </div>
           </div>
           <div className="space-y-6 md:col-span-7">

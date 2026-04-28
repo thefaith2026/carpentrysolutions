@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { SITE } from "@/lib/seo";
+import logo from "@/assets/logo.png";
 
 const NAV = [
   { to: "/", label: "Home" },
@@ -19,14 +20,18 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="group flex items-center gap-3" onClick={() => setOpen(false)}>
-          <div className="flex h-11 w-11 items-center justify-center rounded-sm border border-[var(--brass)]/40 bg-[var(--forest)] text-[var(--cream)] shadow-warm transition-smooth group-hover:scale-105">
-            <span className="font-serif text-xl font-semibold leading-none">CC</span>
-          </div>
+          <img
+            src={logo}
+            alt="Custom Carpentry Solutions LLC"
+            width={44}
+            height={44}
+            className="h-11 w-11 rounded-sm object-contain transition-smooth group-hover:scale-105"
+          />
           <div className="hidden flex-col leading-tight sm:flex">
-            <span className="font-serif text-base font-semibold text-[var(--ink)]">
+            <span className="font-serif text-base font-bold text-black">
               Custom Carpentry
             </span>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-[var(--walnut)]">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-black">
               Solutions LLC
             </span>
           </div>

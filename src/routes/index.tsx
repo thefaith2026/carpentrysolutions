@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
     meta: buildMeta({
       title: "Custom Carpentry in Nashville, Belle Meade, Gallatin & Lebanon",
       description:
-        "Licensed and insured craftsman carpentry — custom cabinets, framing, trim, remodels, additions and new builds across the greater Nashville area. Free quotes.",
+        "Licensed and insured craftsman carpentry - custom cabinets, framing, trim, remodels, additions and new builds across the greater Nashville area. Free quotes.",
       path: "/",
       image: heroImg,
     }),
@@ -24,12 +24,12 @@ export const Route = createFileRoute("/")({
 });
 
 const SERVICES = [
-  { title: "Custom Cabinets", img: cabinetsImg, copy: "White oak, walnut, cherry — built in our shop, installed by our crew." },
+  { title: "Custom Cabinets", img: cabinetsImg, copy: "White oak, walnut, cherry - built in our shop, installed by our crew." },
   { title: "Trim & Finish", img: trimImg, copy: "Crown molding, casings, baseboards. The jewelry of a beautifully built home." },
   { title: "Framing", img: framingImg, copy: "Square corners, plumb walls, load paths done right the first time." },
   { title: "Remodels", img: remodelImg, copy: "Kitchens, baths, whole-home updates with respect for your daily life." },
   { title: "Additions", img: additionImg, copy: "Add the space you actually need without the cost of moving up." },
-  { title: "New Builds", img: heroImg, copy: "From foundation to finish — one team, one standard, one phone number." },
+  { title: "New Builds", img: heroImg, copy: "From foundation to finish - one team, one standard, one phone number." },
 ];
 
 function HomePage() {
@@ -56,7 +56,7 @@ function HomePage() {
           </h1>
           <p className="max-w-2xl text-base leading-relaxed text-[var(--cream)]/85 md:text-xl text-pretty">
             Custom cabinets, framing, trim, additions and full remodels for homeowners across
-            Nashville, Belle Meade, Gallatin and Lebanon. We aren't the cheapest — we're the ones
+            Nashville, Belle Meade, Gallatin and Lebanon. We aren't the cheapest - we're the ones
             you call when the details matter.
           </p>
           <div className="flex flex-wrap items-center gap-4 pt-2">
@@ -94,7 +94,7 @@ function HomePage() {
           <div className="space-y-6 md:col-span-7">
             <p className="text-lg leading-relaxed text-foreground/85 text-pretty">
               Most carpentry crews in Nashville are racing the clock. We're racing the next
-              generation — building work that still looks right, feels right and functions right
+              generation - building work that still looks right, feels right and functions right
               twenty years from now.
             </p>
             <p className="text-lg leading-relaxed text-foreground/85 text-pretty">

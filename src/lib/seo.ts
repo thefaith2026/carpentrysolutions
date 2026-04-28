@@ -67,5 +67,5 @@ export const localBusinessJsonLd = {
   ],
   sameAs: [SITE.instagram],
   description:
-    "Licensed and insured custom carpentry — framing, finish, trim, cabinets, remodels, additions, and new builds across the greater Nashville area.",
+    "Licensed and insured custom carpentry - framing, finish, trim, cabinets, remodels, additions, and new builds across the greater Nashville area.",
 };

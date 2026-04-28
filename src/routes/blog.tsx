@@ -9,9 +9,9 @@ import hero from "@/assets/hero-carpenter.jpg";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: buildMeta({
-      title: "Carpentry Blog — Tips, Guides & Insights from a Nashville Carpenter",
+      title: "Carpentry Blog - Tips, Guides & Insights from a Nashville Carpenter",
       description:
-        "Practical guides to custom cabinets, framing, trim, remodels and additions in Nashville, Belle Meade, Gallatin and Lebanon — written by working Tennessee carpenters.",
+        "Practical guides to custom cabinets, framing, trim, remodels and additions in Nashville, Belle Meade, Gallatin and Lebanon - written by working Tennessee carpenters.",
       path: "/blog",
       image: hero,
     }),
@@ -26,7 +26,7 @@ function BlogIndex() {
       <PageHero
         eyebrow="The Workshop Journal"
         title="Notes from the job site."
-        description="Honest writing about custom carpentry in Middle Tennessee — what to ask, what to expect, what separates a craftsman build from a stock install."
+        description="Honest writing about custom carpentry in Middle Tennessee - what to ask, what to expect, what separates a craftsman build from a stock install."
         image={hero}
       />
 

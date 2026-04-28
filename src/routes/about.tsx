@@ -8,9 +8,9 @@ import portrait from "@/assets/about-portrait.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: buildMeta({
-      title: "About Custom Carpentry Solutions — Nashville's Detail-Obsessed Crew",
+      title: "About Custom Carpentry Solutions - Nashville's Detail-Obsessed Crew",
       description:
-        "Meet the licensed, insured carpentry team behind Custom Carpentry Solutions LLC — serving Nashville, Belle Meade, Gallatin and Lebanon with framing, finish, cabinets and remodels.",
+        "Meet the licensed, insured carpentry team behind Custom Carpentry Solutions LLC - serving Nashville, Belle Meade, Gallatin and Lebanon with framing, finish, cabinets and remodels.",
       path: "/about",
       image: portrait,
     }),
@@ -50,14 +50,14 @@ function AboutPage() {
             <p className="text-lg leading-relaxed text-foreground/85 text-pretty">
               Custom Carpentry Solutions LLC is a Nashville-based carpentry company serving
               homeowners and architects across Middle Tennessee. We focus on the work most other
-              crews skip — the coped joint instead of the mitered one, the dovetailed drawer box
+              crews skip - the coped joint instead of the mitered one, the dovetailed drawer box
               instead of the stapled one, the pre-finished casing instead of the painted-on-site
               shortcut.
             </p>
             <p className="text-lg leading-relaxed text-foreground/85 text-pretty">
               Our crew self-performs every phase of carpentry on every project, from rough framing
               all the way through final trim. That means the same hands hanging your crown molding
-              already know exactly where every stud and blocking piece sits — because they put
+              already know exactly where every stud and blocking piece sits - because they put
               them there. No mystery fasteners. No quality drift between phases.
             </p>
             <p className="text-lg leading-relaxed text-foreground/85 text-pretty">

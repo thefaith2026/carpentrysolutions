@@ -13,7 +13,7 @@ import hero from "@/assets/hero-carpenter.jpg";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: buildMeta({
-      title: "Carpentry Services in Nashville — Cabinets, Framing, Trim, Remodels",
+      title: "Carpentry Services in Nashville - Cabinets, Framing, Trim, Remodels",
       description:
         "Custom cabinets, framing, finish carpentry, trim, remodels, additions and new builds across Nashville, Belle Meade, Gallatin and Lebanon. Licensed & insured.",
       path: "/services",
@@ -33,7 +33,7 @@ const SERVICES = [
   {
     img: trim,
     title: "Trim & Finish Carpentry",
-    copy: "The jewelry of a beautifully built home. Crown molding, casings, baseboards, wainscoting, coffered ceilings — installed with coped joints that don't open up.",
+    copy: "The jewelry of a beautifully built home. Crown molding, casings, baseboards, wainscoting, coffered ceilings - installed with coped joints that don't open up.",
     bullets: ["Crown molding & cornice", "Door & window casings", "Baseboards & wainscoting", "Coffered & beamed ceilings"],
   },
   {
@@ -51,7 +51,7 @@ const SERVICES = [
   {
     img: addition,
     title: "Home Additions",
-    copy: "Add the space you actually need — primary suites, sunrooms, second stories — without the cost and stress of moving up in this market.",
+    copy: "Add the space you actually need - primary suites, sunrooms, second stories - without the cost and stress of moving up in this market.",
     bullets: ["Primary suite additions", "Second-story additions", "Sunrooms & screened porches", "Garage & ADU builds"],
   },
   {
@@ -67,7 +67,7 @@ function ServicesPage() {
     <PageShell>
       <PageHero
         eyebrow="Our Services"
-        title="Carpentry, end to end — built by people who care."
+        title="Carpentry, end to end - built by people who care."
         description="Six core services. One crew. One standard. From the framing nobody sees to the trim everyone touches."
         image={cabinets}
       />

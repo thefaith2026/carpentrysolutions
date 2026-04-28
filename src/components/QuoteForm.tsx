@@ -81,7 +81,7 @@ export function QuoteForm() {
       <div className="rounded-sm border border-[var(--forest)]/30 bg-[var(--cream-deep)] p-10 text-center shadow-warm">
         <CheckCircle2 className="mx-auto h-12 w-12 text-[var(--forest)]" />
         <h3 className="mt-4 font-serif text-2xl font-semibold text-[var(--ink)]">
-          Thank you — we'll be in touch.
+          Thank you - we'll be in touch.
         </h3>
         <p className="mt-2 text-sm text-muted-foreground">
           Your quote request was received. We typically respond within one business day, often

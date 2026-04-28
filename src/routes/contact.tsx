@@ -8,7 +8,7 @@ import remodel from "@/assets/service-remodel.jpg";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: buildMeta({
-      title: "Request a Quote — Custom Carpentry Solutions Nashville",
+      title: "Request a Quote - Custom Carpentry Solutions Nashville",
       description:
         "Tell us about your carpentry project in Nashville, Belle Meade, Gallatin or Lebanon. Free in-home consultations, line-itemed quotes, no high-pressure sales.",
       path: "/contact",
@@ -33,7 +33,7 @@ function ContactPage() {
           <div className="md:col-span-5">
             <h2 className="font-serif text-3xl font-semibold text-[var(--ink)]">Get in touch</h2>
             <p className="mt-3 text-base text-muted-foreground">
-              We respond to every inquiry personally — usually same day, never longer than the
+              We respond to every inquiry personally - usually same day, never longer than the
               next business day.
             </p>
 

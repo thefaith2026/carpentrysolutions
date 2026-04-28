@@ -8,9 +8,9 @@ import addition from "@/assets/service-addition.jpg";
 export const Route = createFileRoute("/service-areas")({
   head: () => ({
     meta: buildMeta({
-      title: "Carpentry Service Areas — Nashville, Belle Meade, Gallatin & Lebanon",
+      title: "Carpentry Service Areas - Nashville, Belle Meade, Gallatin & Lebanon",
       description:
-        "Custom Carpentry Solutions serves the greater Nashville area within roughly an hour of Annex Avenue — Nashville, Belle Meade, Gallatin, Lebanon and surrounding communities.",
+        "Custom Carpentry Solutions serves the greater Nashville area within roughly an hour of Annex Avenue - Nashville, Belle Meade, Gallatin, Lebanon and surrounding communities.",
       path: "/service-areas",
       image: addition,
     }),
@@ -36,7 +36,7 @@ const AREAS = [
   },
   {
     name: "Lebanon, TN",
-    body: "About 35 minutes from our shop. We handle new builds in growing Wilson County subdivisions and remodels in older Lebanon homes — same crew, same standard.",
+    body: "About 35 minutes from our shop. We handle new builds in growing Wilson County subdivisions and remodels in older Lebanon homes - same crew, same standard.",
     keywords: "carpenter Lebanon TN",
   },
   {
@@ -102,7 +102,7 @@ function ServiceAreasPage() {
             </h3>
             <p className="mx-auto mt-3 max-w-xl text-base text-muted-foreground">
               We occasionally take projects beyond our standard radius for the right job. If
-              you're nearby and not sure whether we'd come out, just ask — the answer is almost
+              you're nearby and not sure whether we'd come out, just ask - the answer is almost
               always yes.
             </p>
             <Link

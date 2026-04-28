@@ -16,7 +16,7 @@ import framing from "@/assets/service-framing.jpg";
 import remodel from "@/assets/service-remodel.jpg";
 import addition from "@/assets/service-addition.jpg";
 import hero from "@/assets/hero-carpenter.jpg";
-import portrait from "@/assets/about-portrait.jpg";
+import portrait from "@/assets/about-workshop.jpg";
 
 export const BLOG_POSTS: BlogPost[] = [
   {

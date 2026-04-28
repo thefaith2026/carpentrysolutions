@@ -101,7 +101,7 @@ export function QuoteForm() {
     <form onSubmit={handleSubmit} className="grid gap-5 rounded-sm border border-border bg-[var(--cream)] p-6 shadow-warm md:p-10">
       <div className="grid gap-5 md:grid-cols-2">
         <Field label="Name" name="name" error={errors.name} required />
-        <Field label="Email" name="email" type="email" error={errors.email} required />
+        <Field label="Email (optional)" name="email" type="email" error={errors.email} />
         <Field label="Phone" name="phone" type="tel" error={errors.phone} />
         <Field label="Project location" name="location" placeholder="City or neighborhood" error={errors.location} />
       </div>

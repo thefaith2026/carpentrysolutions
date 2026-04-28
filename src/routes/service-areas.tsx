@@ -12,7 +12,7 @@ export const Route = createFileRoute("/service-areas")({
       description:
         "Custom Carpentry Solutions serves the greater Nashville area within roughly an hour of Annex Avenue - Nashville, Belle Meade, Gallatin, Lebanon and surrounding communities.",
       path: "/service-areas",
-      image: addition,
+      image: areasHero,
     }),
   }),
   component: ServiceAreasPage,
@@ -68,7 +68,7 @@ function ServiceAreasPage() {
         eyebrow="Where We Work"
         title="Custom carpentry across Middle Tennessee."
         description="Based on Annex Avenue in West Nashville, we serve clients within roughly an hour of our shop. That covers most of greater Nashville, Belle Meade, Gallatin and Lebanon."
-        image={addition}
+        image={areasHero}
       />
 
       <section className="bg-background">

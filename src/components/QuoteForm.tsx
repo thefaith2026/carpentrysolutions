@@ -5,7 +5,7 @@ import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 
 const QuoteSchema = z.object({
   name: z.string().trim().min(2, "Please enter your name").max(100),
-  email: z.string().trim().email("Please enter a valid email").max(255),
+  email: z.string().trim().email("Please enter a valid email").max(255).optional().or(z.literal("")),
   phone: z.string().trim().max(30).optional().or(z.literal("")),
   location: z.string().trim().max(100).optional().or(z.literal("")),
   project_type: z.string().trim().max(100).optional().or(z.literal("")),
@@ -59,7 +59,7 @@ export function QuoteForm() {
     setStatus("submitting");
     const { error } = await supabase.from("quote_requests").insert({
       name: parsed.data.name,
-      email: parsed.data.email,
+      email: parsed.data.email || "no-email@provided.local",
       phone: parsed.data.phone || null,
       location: parsed.data.location || null,
       project_type: parsed.data.project_type || null,

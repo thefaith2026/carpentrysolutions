@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
+import { Phone, MapPin, Clock, Instagram } from "lucide-react";
 import { SITE } from "@/lib/seo";
 import logo from "@/assets/logo.png";
 
@@ -65,10 +65,6 @@ export function SiteFooter() {
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-[var(--brass)]" />
                 <a href={`tel:${SITE.phoneRaw}`} className="hover:text-[var(--cream)]">{SITE.phone}</a>
-              </li>
-              <li className="flex items-center gap-3">
-                <Mail className="h-4 w-4 text-[var(--brass)]" />
-                <a href={`mailto:${SITE.email}`} className="hover:text-[var(--cream)]">{SITE.email}</a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 text-[var(--brass)]" />

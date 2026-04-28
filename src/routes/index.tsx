@@ -6,6 +6,7 @@ import trimImg from "@/assets/service-trim.jpg";
 import framingImg from "@/assets/service-framing.jpg";
 import remodelImg from "@/assets/service-remodel.jpg";
 import additionImg from "@/assets/service-addition.jpg";
+import newBuildImg from "@/assets/service-newbuild.jpg";
 import { PageShell } from "@/components/PageShell";
 import { CtaBanner } from "@/components/CtaBanner";
 import { SITE, buildMeta } from "@/lib/seo";
@@ -29,7 +30,7 @@ const SERVICES = [
   { title: "Framing", img: framingImg, copy: "Square corners, plumb walls, load paths done right the first time." },
   { title: "Remodels", img: remodelImg, copy: "Kitchens, baths, whole-home updates with respect for your daily life." },
   { title: "Additions", img: additionImg, copy: "Add the space you actually need without the cost of moving up." },
-  { title: "New Builds", img: heroImg, copy: "From foundation to finish - one team, one standard, one phone number." },
+  { title: "New Builds", img: newBuildImg, copy: "From foundation to finish - one team, one standard, one phone number." },
 ];
 
 function HomePage() {

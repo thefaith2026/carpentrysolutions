@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
+import { Phone, MapPin, Clock, Instagram } from "lucide-react";
 import { PageShell, PageHero } from "@/components/PageShell";
 import { QuoteForm } from "@/components/QuoteForm";
 import { SITE, buildMeta } from "@/lib/seo";
-import remodel from "@/assets/service-remodel.jpg";
+import contactHero from "@/assets/contact-hero.jpg";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -12,7 +12,7 @@ export const Route = createFileRoute("/contact")({
       description:
         "Tell us about your carpentry project in Nashville, Belle Meade, Gallatin or Lebanon. Free in-home consultations, line-itemed quotes, no high-pressure sales.",
       path: "/contact",
-      image: remodel,
+      image: contactHero,
     }),
   }),
   component: ContactPage,
@@ -25,7 +25,7 @@ function ContactPage() {
         eyebrow="Request a Quote"
         title="Tell us about your project."
         description="A few details below and we'll be in touch within one business day. For urgent calls, the phone is fastest."
-        image={remodel}
+        image={contactHero}
       />
 
       <section className="bg-background">
@@ -46,17 +46,6 @@ function ContactPage() {
                   <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Phone</p>
                   <a href={`tel:${SITE.phoneRaw}`} className="font-serif text-lg font-medium text-[var(--ink)] hover:text-[var(--forest)]">
                     {SITE.phone}
-                  </a>
-                </div>
-              </li>
-              <li className="flex items-start gap-4">
-                <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-sm bg-[var(--forest)]/10">
-                  <Mail className="h-4 w-4 text-[var(--forest)]" />
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Email</p>
-                  <a href={`mailto:${SITE.email}`} className="font-serif text-lg font-medium text-[var(--ink)] hover:text-[var(--forest)]">
-                    {SITE.email}
                   </a>
                 </div>
               </li>

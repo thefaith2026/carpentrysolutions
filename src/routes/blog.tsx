@@ -4,7 +4,7 @@ import { PageShell, PageHero } from "@/components/PageShell";
 import { CtaBanner } from "@/components/CtaBanner";
 import { buildMeta } from "@/lib/seo";
 import { BLOG_POSTS } from "@/lib/blog-posts";
-import hero from "@/assets/hero-carpenter.jpg";
+import hero from "@/assets/blog-hero.jpg";
 
 export const Route = createFileRoute("/blog")({
   head: () => ({

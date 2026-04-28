@@ -8,7 +8,7 @@ import trim from "@/assets/service-trim.jpg";
 import framing from "@/assets/service-framing.jpg";
 import remodel from "@/assets/service-remodel.jpg";
 import addition from "@/assets/service-addition.jpg";
-import hero from "@/assets/hero-carpenter.jpg";
+import newBuild from "@/assets/service-newbuild.jpg";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -55,7 +55,7 @@ const SERVICES = [
     bullets: ["Primary suite additions", "Second-story additions", "Sunrooms & screened porches", "Garage & ADU builds"],
   },
   {
-    img: hero,
+    img: newBuild,
     title: "New Builds",
     copy: "From foundation to final walk-through. One team, one standard, one phone number. We partner with select Nashville architects on custom homes.",
     bullets: ["Custom single-family builds", "Architect collaboration", "Project management", "Full carpentry self-performance"],

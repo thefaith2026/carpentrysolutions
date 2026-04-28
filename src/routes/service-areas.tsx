@@ -3,7 +3,7 @@ import { MapPin } from "lucide-react";
 import { PageShell, PageHero } from "@/components/PageShell";
 import { CtaBanner } from "@/components/CtaBanner";
 import { buildMeta } from "@/lib/seo";
-import addition from "@/assets/service-addition.jpg";
+import areasHero from "@/assets/service-areas-hero.jpg";
 
 export const Route = createFileRoute("/service-areas")({
   head: () => ({

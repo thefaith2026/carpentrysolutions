@@ -2,6 +2,7 @@ import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/r
 
 import appCss from "../styles.css?url";
 import { SITE, localBusinessJsonLd } from "@/lib/seo";
+import { CallChatWidget } from "@/components/CallChatWidget";
 
 function NotFoundComponent() {
   return (
@@ -82,5 +83,10 @@ function RootShell({ children }: { children: React.ReactNode }) {
 }
 
 function RootComponent() {
-  return <Outlet />;
+  return (
+    <>
+      <Outlet />
+      <CallChatWidget />
+    </>
+  );
 }

@@ -6,7 +6,7 @@ import { buildMeta } from "@/lib/seo";
 import { BLOG_POSTS } from "@/lib/blog-posts";
 import hero from "@/assets/blog-hero.jpg";
 
-export const Route = createFileRoute("/blog/")({
+export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: buildMeta({
       title: "Carpentry Blog - Tips, Guides & Insights from a Nashville Carpenter",

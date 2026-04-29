@@ -81,18 +81,26 @@ export function QuoteForm() {
       <div className="rounded-sm border border-[var(--forest)]/30 bg-[var(--cream-deep)] p-10 text-center shadow-warm">
         <CheckCircle2 className="mx-auto h-12 w-12 text-[var(--forest)]" />
         <h3 className="mt-4 font-serif text-2xl font-semibold text-[var(--ink)]">
-          Thank you - we'll be in touch.
+          Thank you - your request was received.
         </h3>
         <p className="mt-2 text-sm text-muted-foreground">
-          Your quote request was received. We typically respond within one business day, often
-          sooner. For urgent projects, please call <a href="tel:+16156939047" className="font-medium text-[var(--forest)] underline-offset-4 hover:underline">(615) 693-9047</a>.
+          We typically respond within one business day. For the fastest reply - especially on
+          urgent projects - give us a call right now.
         </p>
-        <button
-          onClick={() => setStatus("idle")}
-          className="mt-6 text-sm font-medium text-[var(--walnut)] underline-offset-4 hover:underline"
+        <a
+          href="tel:+16156939047"
+          className="mt-6 inline-flex items-center justify-center gap-2 rounded-sm bg-[var(--forest)] px-6 py-3.5 text-base font-semibold text-[var(--cream)] shadow-warm transition hover:bg-[var(--forest-deep)]"
         >
-          Submit another request
-        </button>
+          <Phone className="h-4 w-4" /> Call (615) 693-9047
+        </a>
+        <div className="mt-4">
+          <button
+            onClick={() => setStatus("idle")}
+            className="text-sm font-medium text-[var(--walnut)] underline-offset-4 hover:underline"
+          >
+            Submit another request
+          </button>
+        </div>
       </div>
     );
   }

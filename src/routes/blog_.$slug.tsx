@@ -5,7 +5,7 @@ import { CtaBanner } from "@/components/CtaBanner";
 import { buildMeta } from "@/lib/seo";
 import { POSTS_BY_SLUG, BLOG_POSTS } from "@/lib/blog-posts";
 
-export const Route = createFileRoute("/blog/$slug")({
+export const Route = createFileRoute("/blog_/$slug")({
   loader: ({ params }) => {
     const post = POSTS_BY_SLUG[params.slug];
     if (!post) throw notFound();

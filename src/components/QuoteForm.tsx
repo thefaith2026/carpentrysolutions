@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { z } from "zod";
 import { supabase } from "@/integrations/supabase/client";
-import { CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { CheckCircle2, AlertCircle, Loader2, Phone } from "lucide-react";
 
 const QuoteSchema = z.object({
   name: z.string().trim().min(2, "Please enter your name").max(100),

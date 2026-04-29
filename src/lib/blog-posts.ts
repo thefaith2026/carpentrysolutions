@@ -176,6 +176,81 @@ export const BLOG_POSTS: BlogPost[] = [
       "We occasionally take on projects outside this radius for the right job - destination homes, vacation properties, repeat clients - but our standard service area is roughly Nashville, Belle Meade, Gallatin, and Lebanon. If you're nearby and not sure whether we'd come out, just ask. The answer is almost always yes.",
     ],
   },
+  {
+    slug: "built-ins-bookcases-nashville-homes",
+    title: "Built-Ins & Bookcases: Adding Character to Nashville Homes",
+    description:
+      "Why custom built-ins are the highest-ROI carpentry upgrade for Nashville homes - libraries, window seats, mudrooms, and entertainment walls done right.",
+    date: "November 2, 2025",
+    readTime: "6 min read",
+    category: "Built-Ins",
+    cover: remodel,
+    body: [
+      "Of every carpentry upgrade we do in Nashville, custom built-ins return the most character per dollar. A $12,000 library wall in a Belle Meade study transforms a forgettable room into the room everyone wants to sit in. A simple mudroom bench with hooks and cubbies turns a chaotic side entry into the most-used corner of the house. Built-ins are the difference between living in a house and loving it.",
+      "Library walls are our most-requested built-in across Nashville and Belle Meade. The recipe: floor-to-ceiling painted poplar boxes, adjustable shelves on hidden pins, a bottom run of cabinet doors hiding the messy stuff, fluted pilasters at the corners, and a small reading-light cove at the top. Painted in a deep green or warm clay, this reads as the home of someone who reads.",
+      "Window seats are the second-most-requested. Done right, they're a hinged-lid storage bench with a custom cushion, flanked by tall bookcases on either side. Done wrong, they're an awkward radiator cover. The difference is in the proportions: seat depth around 18 inches, seat height 17-18 inches, total nook width at least 5 feet so two adults can actually sit comfortably.",
+      "Mudrooms are the highest-impact built-in for families. We typically build a bench (with shoe storage below), a row of hooks at adult height, a second row of hooks at kid height, and an upper cabinet for hats, gloves, and dog leashes. Add a small drawer for charging cables and you've solved the entire entryway-clutter problem in one weekend's install.",
+      "Entertainment walls have evolved past the giant 2010-era armoire. The modern Nashville version is a low credenza with cable management, a clean drywall return where the TV mounts, and floating shelves on either side. Quiet, architectural, and forty years from looking dated.",
+      "If you've got a wall that bugs you - that awkward dead corner, that hallway that should have storage, that bonus room that needs definition - bring us out. Built-ins are usually faster and cheaper than people expect, and the impact is immediate.",
+    ],
+  },
+  {
+    slug: "deck-porch-carpentry-middle-tennessee",
+    title: "Deck & Porch Carpentry in Middle Tennessee: Materials, Lifespan & Style",
+    description:
+      "A Nashville carpenter's guide to building decks and screened porches in Middle Tennessee - choosing decking, framing for our climate, and porch styles that fit.",
+    date: "October 14, 2025",
+    readTime: "7 min read",
+    category: "Outdoor",
+    cover: addition,
+    body: [
+      "Middle Tennessee is built for outdoor living. Long shoulder seasons, mild evenings from April through October, and a culture that genuinely uses porches mean a well-built deck or screened porch gets more use here than almost anywhere in the country. It also means our outdoor structures take a beating from sun, humidity, and the occasional surprise ice storm.",
+      "Decking material first. Pressure-treated southern yellow pine is the cheapest option and lasts about 12-15 years in our climate before serious decay starts. Cedar lasts about 20 years if maintained, and looks gorgeous for the first five. Composite (Trex, TimberTech) lasts 25-30 years with almost no maintenance, but doesn't have the same warmth underfoot. Ipe and other tropical hardwoods last 40+ years but cost roughly triple - worth it for a forever deck on a forever home.",
+      "Framing matters more than decking. We use ground-contact pressure-treated 2x10 joists at 16-inch centers, double rim joists, and ledger boards bolted (never nailed) to the house with proper flashing. Skipping the flashing is the single most common cause of rotted band joists and interior water damage on Nashville decks. Don't skip the flashing.",
+      "Screened porches are our favorite outdoor build. A 14x16 screened porch off the back of a Nashville home becomes the de facto dining room from May through October. We frame with a cathedral ceiling, run a tongue-and-groove pine ceiling that takes a clear seal, install a slow-turning paddle fan, and screen with charcoal-colored mesh that disappears visually. Add a gas fireplace and the season extends through November.",
+      "Style matters too. A traditional Belle Meade home wants white-painted columns, beadboard ceiling, and brick or limestone piers. A craftsman bungalow in East Nashville wants tapered cedar columns on stone piers and exposed rafter tails. Modern farmhouse wants black metal railings and natural cedar everywhere. Match the porch to the house - don't just slap a generic kit onto the back wall.",
+      "If you're thinking about a deck or porch project, the best time to start the conversation is February. We schedule outdoor builds March through June so they're done in time for prime summer use. Wait until May to call and you're looking at a fall install.",
+    ],
+  },
+  {
+    slug: "carpentry-warranty-what-to-expect-nashville",
+    title: "What a Real Carpentry Warranty Looks Like in Nashville",
+    description:
+      "Carpentry warranties vary wildly across Nashville contractors. A clear breakdown of what you should expect, what's reasonable, and what's a red flag.",
+    date: "September 28, 2025",
+    readTime: "5 min read",
+    category: "Hiring",
+    cover: framing,
+    body: [
+      "Most Nashville homeowners don't think about a carpentry warranty until something cracks, sags, or pulls away from a wall - usually about 14 months after the project finishes, just past whatever warranty their contractor offered. That timing isn't an accident. Knowing what a real warranty should cover is the difference between a crew standing behind their work and a crew dodging your texts.",
+      "Industry standard for residential carpentry in Tennessee is one year on craftsmanship - meaning if a joint opens up, a cabinet door sags, or trim pulls off the wall through normal use, your contractor comes back and fixes it on their dime. Anything less than one year is a red flag.",
+      "Cabinetry should carry an additional manufacturer warranty on the boxes (typically 5-10 years on construction, lifetime on hinges and drawer slides for quality hardware like Blum). Make sure you get the documentation in writing at install - not promised verbally and never delivered.",
+      "Framing and structural work should carry a longer warranty - we offer 5 years on framing because if something's wrong with the bones of a build, it tends to surface slowly. Roof structure, load paths, and stair stringers are not the place to cut corners or skimp on the warranty period.",
+      "What warranties should NOT cover: normal wood movement (small seasonal gaps in trim joints are physics, not defects), damage from water intrusion not caused by the carpentry work, paint cracking due to settling, or anything caused by another trade after we leave the site. Reasonable contractors put these exclusions in writing up front so there are no fights later.",
+      "Red flags: Verbal-only warranties. 30-day or 90-day craftsmanship warranties (way too short). Warranties that exclude 'wear and tear' without defining the term. Contractors who answer 'we'll work with you' instead of giving you specific terms. Get it in writing or assume you don't have one.",
+      "Our standard warranty: One year on all craftsmanship, five years on framing and structural work, plus we pass through whatever manufacturer warranties came with the materials. We've never failed to honor it - and we've been around long enough that you can ask the people we built for in 2018 whether we still pick up the phone.",
+    ],
+  },
+  {
+    slug: "small-carpentry-projects-worth-hiring-out",
+    title: "Small Carpentry Projects Worth Hiring a Pro For (Even If You're Handy)",
+    description:
+      "Some carpentry jobs look simple on YouTube but cost more to fix than to do right the first time. A Nashville carpenter on which small jobs to hire out.",
+    date: "September 10, 2025",
+    readTime: "5 min read",
+    category: "Education",
+    cover: trim,
+    body: [
+      "We get calls every month from Nashville homeowners who started a 'simple' carpentry project on a Saturday and called us by Sunday afternoon. There's no shame in it - some jobs look way easier on YouTube than they are with a real saw in your hands and a real wall in front of you. Here's an honest take on which small projects are worth doing yourself, and which are worth a few hundred bucks to a pro.",
+      "Hanging a single shelf: DIY. A stud finder, a level, two screws into studs, done in 15 minutes. Truly no reason to hire this out.",
+      "Replacing a single piece of damaged baseboard: DIY-ish. If the existing trim is a stock profile from a big-box store and the rest of the room is painted (not stained), you can pull this off with a miter saw and some patience. If it's a custom or older profile, hire it out - matching is harder than cutting.",
+      "Installing crown molding in a single room: HIRE. Crown looks straightforward in YouTube videos and is genuinely difficult in practice. Compound miter angles, coped inside corners, and the inevitable out-of-square corners of any real house mean a first-timer will spend a Saturday and end up with gaps you can fit a quarter through. A pro does the same room in three hours with tight joints.",
+      "Replacing a door: HIRE. Pre-hung doors look easy until you discover that no door opening in any house is actually plumb, square, or the right size. Shimming, scribing, and casing a door correctly is a real skill. The cost of having a pro do it ($200-400) is less than the cost of a door you have to live with for years that doesn't latch right.",
+      "Building a simple bookcase from plywood: DIY if you have a track saw and patience. The cuts are forgiving if it's painted. If it's stained hardwood with face frames and adjustable shelves - hire it.",
+      "Installing built-in cabinets: HIRE. Built-ins live in the gap between cabinetmaking and finish carpentry, and they require both skills. Even handy homeowners struggle with the scribing, the level reference lines, and the trim integration into existing walls.",
+      "Honest rule of thumb: If the project will be visible at eye level in a room you spend time in, hire it out. If it lives in the garage or a closet, do it yourself. The cost of a craftsman is small compared to the cost of looking at imperfect work every day for a decade.",
+    ],
+  },
 ];
 
 export const POSTS_BY_SLUG = Object.fromEntries(BLOG_POSTS.map((p) => [p.slug, p]));

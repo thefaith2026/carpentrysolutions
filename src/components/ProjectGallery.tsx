@@ -2,6 +2,8 @@ import deckAsset from "@/assets/deck-cable-rail.png.asset.json";
 import bridgeAsset from "@/assets/footbridge.jpg.asset.json";
 import videoAsset from "@/assets/project-video.mp4.asset.json";
 import porchImg from "@/assets/gallery-porch.jpg";
+import cedarAsset from "@/assets/cedar-pass-through.jpg.asset.json";
+
 
 export function ProjectGallery() {
   return (

@@ -9,6 +9,8 @@ import additionImg from "@/assets/service-addition.jpg";
 import newBuildImg from "@/assets/service-newbuild.jpg";
 import { PageShell } from "@/components/PageShell";
 import { CtaBanner } from "@/components/CtaBanner";
+import { ProjectGallery } from "@/components/ProjectGallery";
+
 import { SITE, buildMeta } from "@/lib/seo";
 
 export const Route = createFileRoute("/")({
@@ -156,7 +158,10 @@ function HomePage() {
         </div>
       </section>
 
+      <ProjectGallery />
+
       {/* WHY US */}
+
       <section className="bg-[var(--forest)] text-[var(--cream)]">
         <div className="mx-auto max-w-7xl px-6 py-24 md:py-32">
           <p className="text-xs uppercase tracking-[0.3em] text-[var(--brass)]">Why Homeowners Choose Us</p>

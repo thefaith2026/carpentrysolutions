@@ -2,6 +2,8 @@ import deckAsset from "@/assets/deck-cable-rail.png.asset.json";
 import bridgeAsset from "@/assets/footbridge.jpg.asset.json";
 import videoAsset from "@/assets/project-video.mp4.asset.json";
 import porchImg from "@/assets/gallery-porch.jpg";
+import cedarAsset from "@/assets/cedar-pass-through.jpg.asset.json";
+
 
 export function ProjectGallery() {
   return (
@@ -68,7 +70,20 @@ export function ProjectGallery() {
               Covered porch with cedar posts and T&amp;G ceiling
             </figcaption>
           </figure>
+
+          <figure className="overflow-hidden rounded-sm border border-border shadow-warm md:col-span-2">
+            <img
+              src={cedarAsset.url}
+              alt="Stained cedar pass-through window surround with shutter panel and screened openings on a brick home"
+              loading="lazy"
+              className="aspect-[16/9] w-full object-cover transition-smooth hover:scale-[1.02]"
+            />
+            <figcaption className="bg-[var(--cream-deep)] px-5 py-4 text-sm text-foreground/80">
+              Stained cedar pass-through window surround and screened panels
+            </figcaption>
+          </figure>
         </div>
+
       </div>
     </section>
   );
